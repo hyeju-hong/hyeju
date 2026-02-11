@@ -515,7 +515,7 @@
     width: 100%;
     /* height: 1458px; */
     height: 1400px;
-    background-color: #F9F9F9;
+    background-color: rgb(14, 9, 1);
     /* display: flex;
     justify-content: center;
     flex-direction: column;
@@ -540,7 +540,7 @@
 .point h2 {
     font-family: var(--font-Eczar);
     font-size: 140px;
-    color: var(--main-red);
+    color: var(--orange);
     font-weight: 400;
     margin-top: 400px;
     margin-bottom: 90px;
@@ -605,19 +605,19 @@
 }
 
 .sticky_con ul li:nth-child(1) .front {
-    background-image: url(../img/joker_e.png);
+    background-image: url(../img/rejhow.png);
     width: 375px;
     height: 583px;
 }
 
 .sticky_con ul li:nth-child(2) .front {
-    background-image: url(../img/joker_e_blue.png);
+    background-image: url(../img/ifro.png);
     width: 375px;
     height: 583px;
 }
 
 .sticky_con ul li:nth-child(3) .front {
-    background-image: url(../img/joker_e_red.png);
+    background-image: url(../img/workfrk.png);
     width: 375px;
     height: 583px;
 }
@@ -722,7 +722,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: 80vh;
 
 
 }
@@ -782,7 +782,7 @@
 }
 
 .contact .contact_right .right_bottom h3 {
-    color: var(--main-red);
+    color: rgb(109, 67, 0);
 
     font-family: var(--main-font);
     font-size: 240%;

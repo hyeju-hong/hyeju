@@ -141,8 +141,11 @@ header .line li.on a {
 footer {
     width: 100%;
     height: 320px;
-    background-color: var(--main-red);
-
+    /* background-color: rgb(14, 9, 1); */
+    background-image: url(../img/ground.PNG);
+     background-repeat: no-repeat;
+background-size: cover;
+  background-position: center;
     /* display: flex; */
 
 }
@@ -169,7 +172,7 @@ footer .left {
 }
 
 footer .left p {
-    color: var(--main-gray);
+    color: var(--orange);
     font-family: var(--main-font);
     font-size: 200%;
     font-weight: 400;
@@ -184,7 +187,7 @@ footer .left ul li{
     /* margin-right: 10px; */
 }
 footer .left ul li a {
-    color: var(--main-gray);
+    color: var(--orange);
     font-family: var(--main-font);
     font-size: 80%;
     font-weight: 400;
@@ -193,7 +196,7 @@ footer .left ul li a {
 
 
 footer .center{
-    color: var(--main-gray);
+    color: var(--orange);
     font-family: var(--main-font);
 font-size: 41px;
 font-weight: 400;
@@ -219,7 +222,7 @@ footer .right {
 }
 
 footer .right p {
-    color: var(--main-gray);
+    color: var(--orange);
     font-family: var(--main-font);
     font-size: 200%;
     font-weight: 400;
@@ -227,7 +230,7 @@ footer .right p {
 }
 
 footer .right em {
-    color: var(--main-gray);
+    color: var(--orange);
     font-family: var(--main-font);
     font-size: 80%;
     font-weight: 400;
